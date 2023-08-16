@@ -21,7 +21,7 @@ const About = () => {
         I'm a skilled software developer with experience in TypeScript and
         JavaScript, and expertise in front-end frameworks such as React,
         Angular, Bootstrap and Tailwind. I'm a fast learner and collaborate
-        closely with clients to create efficient, scalable, and user-friendly
+        closely with teammates to create efficient, scalable, and user-friendly
         solutions that solve real-world problems. Let's work together to bring
         your ideas to life!
       </motion.p>

@@ -47,7 +47,13 @@ const CerticateCard = ({ course }) => {
       }
     >
       <div>
-        <h3 className="text-white text-[24px] font-bold">{course.title}</h3>
+        <a
+          href={course.course_link}
+          target="_blank"
+          className="text-white text-[24px] font-bold hover:underline"
+        >
+          {course.title}
+        </a>
         <p
           className="text-secondary text-[16px] font-semibold"
           style={{ margin: 0 }}

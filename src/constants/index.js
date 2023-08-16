@@ -10,19 +10,9 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
   pluralsight,
 } from "../assets";
 
@@ -94,6 +84,8 @@ const technologies = [
 const courses = [
   {
     title: "JavaScript: Getting Started",
+    course_link:
+      "https://app.pluralsight.com/library/courses/javascript-getting-started/table-of-contents",
     company_name: "Pluralsight",
     icon: pluralsight,
     iconBg: "#383E56",
@@ -104,6 +96,8 @@ const courses = [
   },
   {
     title: "Angular: Getting Started",
+    course_link:
+      "https://app.pluralsight.com/library/courses/angular-2-getting-started-update/table-of-contents",
     company_name: "Pluralsight",
     icon: pluralsight,
     iconBg: "#E6DEDD",
@@ -114,6 +108,8 @@ const courses = [
   },
   {
     title: "Angular Forms",
+    course_link:
+      "https://app.pluralsight.com/library/courses/angular-forms/table-of-contents",
     company_name: "Pluralsight",
     icon: pluralsight,
     iconBg: "#383E56",
@@ -124,6 +120,8 @@ const courses = [
   },
   {
     title: "React 18: Fundamentals",
+    course_link:
+      "https://app.pluralsight.com/library/courses/react-18-fundamentals/table-of-contents",
     company_name: "Pluralsight",
     icon: pluralsight,
     iconBg: "#E6DEDD",
@@ -134,6 +132,8 @@ const courses = [
   },
   {
     title: "React 18: Components",
+    course_link:
+      "https://app.pluralsight.com/library/courses/react-18-working-components/table-of-contents",
     company_name: "Pluralsight",
     icon: pluralsight,
     iconBg: "#E6DEDD",
