@@ -3,10 +3,8 @@ import {
   About,
   Contact,
   Certificate,
-  Feedbacks,
   Hero,
   Navbar,
-  Tech,
   Works,
   StarsCanvas,
 } from "./components";
