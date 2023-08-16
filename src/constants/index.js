@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  pluralsight,
 } from "../assets";
 
 export const navLinks = [
@@ -114,58 +115,56 @@ const technologies = [
   },
 ];
 
-const experiences = [
+const courses = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "JavaScript: Getting Started",
+    company_name: "Pluralsight",
+    icon: pluralsight,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "March 2021",
+    description:
+      "JavaScript is the popular programming language which powers web pages and web applications. If you are new to programming or just new to the language, this course will get you started coding in JavaScript.",
+    credentialID: "804837c6-ac3c-4698-aebd-bc15f629e64e",
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Angular: Getting Started",
+    company_name: "Pluralsight",
+    icon: pluralsight,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "July 2022",
+    description:
+      "Angular is one of the fastest, most popular open source web app frameworks today, and knowing how to use it is essential for developers. You'll learn how to create components and user interfaces, data-binding, retrieving data using HTTP, and more.",
+    credentialID: "12d7d1cc-b3ec-40b2-b13e-3c35e8ba07a5",
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Angular Forms",
+    company_name: "Pluralsight",
+    icon: pluralsight,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "July 2022",
+    description:
+      "This course will cover the fundamentals of working with forms in Angular. You'll learn how to create forms, style them, and use data binding and validation. You'll be able to post a form to a server, and work with third-party form controls.",
+    credentialID: "604a909e-ed7f-4d4b-949d-b341dc1d5046",
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "React 18: Fundamentals",
+    company_name: "Pluralsight",
+    icon: pluralsight,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "December 2022",
+    description:
+      "Are you ready to write structured single page applications with one of the most popular JavaScript UI libraries around? This course teaches you everything that’s needed to write efficient and shining UIs for your web applications.",
+    credentialID: "9a3771fa-626e-4708-8634-c49cc8616922",
+  },
+  {
+    title: "React 18: Components",
+    company_name: "Pluralsight",
+    icon: pluralsight,
+    iconBg: "#E6DEDD",
+    date: "February 2023",
+    description:
+      "This course will teach you how to build React apps that use components in the best possible way while minimizing computer resources and maximizing browser UI experience.",
+    credentialID: "7a535a45-10d4-4774-88a9-be02c7d98012",
   },
 ];
 
@@ -262,4 +261,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, courses, testimonials, projects };
