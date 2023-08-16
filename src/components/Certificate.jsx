@@ -65,4 +65,4 @@ const CerticateCard = ({ course }) => {
   );
 };
 
-export default SectionWrapper(Certificate, "experience");
+export default SectionWrapper(Certificate, "certificate");
