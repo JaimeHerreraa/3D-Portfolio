@@ -13,7 +13,7 @@ import { textVariant } from "../utils/motion";
 const Certificate = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant(0)}>
         <p className={styles.sectionSubText}>Featuring Enrolled courses</p>
         <h2 className={styles.sectionHeadText}>Certificates</h2>
       </motion.div>

@@ -7,9 +7,10 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import delivery from "./delivery-app.png";
+import anime from "./anime-app.png";
+import outdoors from "./outdoors-website.png";
+
 import pluralsight from "./pluralsight-logo.png";
 
 export {
@@ -21,8 +22,8 @@ export {
   github,
   menu,
   close,
-  carrent,
-  jobit,
-  tripguide,
   pluralsight,
+  delivery,
+  anime,
+  outdoors,
 };

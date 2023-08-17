@@ -3,9 +3,9 @@ import {
   backend,
   creator,
   web,
-  carrent,
-  jobit,
-  tripguide,
+  delivery,
+  anime,
+  outdoors,
   pluralsight,
 } from "../assets";
 
@@ -13,6 +13,10 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "certificate",
+    title: "Certificates",
   },
   {
     id: "work",
@@ -108,67 +112,67 @@ const courses = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Outdoors Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The homepage of a hiking shop's website that provides information about their products, how customers feel, and what they plan to do next.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "responsive",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: outdoors,
+    source_code_link: "https://github.com/JaimeHerreraa/Outdoors-Website",
+  },
+  {
+    name: "Delivery App",
+    description:
+      "Website for a delivery app that works on mobile devices. It looks good and has nice animations. It tells you about the services and benefits.",
+    tags: [
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bem",
+        color: "green-text-gradient",
+      },
+      {
+        name: "animations",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: delivery,
+    source_code_link: "https://github.com/JaimeHerreraa/Delivery-APP-Website",
+  },
+  {
+    name: "My Anime App",
+    description:
+      "This web-based anime wiki boasts a vast collection of content and incorporates advanced features such as infinity scroll and pagination.",
+    tags: [
+      {
+        name: "angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ngrx",
+        color: "green-text-gradient",
+      },
+      {
+        name: "js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: anime,
+    source_code_link: "https://github.com/JaimeHerreraa/My-Anime-App",
   },
 ];
 
