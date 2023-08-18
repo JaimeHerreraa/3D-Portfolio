@@ -17,8 +17,7 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-  const sendEmail = (event) => {
-    event.preventDefault();
+  const sendEmail = () => {
     setLoading(true);
     emailjs
       .send(
